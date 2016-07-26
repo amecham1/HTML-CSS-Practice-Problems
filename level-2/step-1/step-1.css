@@ -2,7 +2,7 @@
 
 .main-top-section {
     width: 100%;
-    height: 375px;
+    height: 90vh;
     background: #F7F1E7;
     position: relative;
     /*You will need to add a position property to get this to look like he design */
@@ -15,10 +15,15 @@
     height: 70px;
     text-align: center;
     background: #D8D8D8;
+    display: flex;
+    justify-content: space-between;
 }
 
-/*  Step-1.2 You need to get all of these elements to line up side by side. What display property would do this for you? */
-/*  Step-1.2 You will also need t add a position property to the logo and sign in containers */
+/*  Step-1.2 You need to get all of these elements to line up side by side.
+ What display property
+ would do this for you? */
+/*  Step-1.2 You will also need t add a position property to the logo
+and sign in containers */
 
 .menu {
     width: 100px;
@@ -39,15 +44,19 @@
     height: 40px;
     background: #536A63;
 
+
 }
 
 /*  Step-1.3 Make this container overhang off it's parent container.  */
 
 .bottom-container {
-    width: 60%;
+    width: 70%;
     height: 60px;
-    left: 22%;
     background: #536A63;
+    position: absolute;
+    bottom:-25px;
+    left: 15vw;
+
 
 
 }
